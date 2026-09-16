@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nome": "Costela-de-Adão (Monstera)",
+    "descricao": "Planta tropical de folhas grandes e marcantes, perfeita para ambientes internos bem iluminados.",
+    "preco": 89.90,
+    "codigoBarras": "7891234560017",
+    "imagem": "imagens/costela.png"
+  },
+  {
+    "id": 2,
+    "nome": "Jiboia Verde",
+    "descricao": "Fácil de cuidar, pendente e ideal para salas e escritórios. Tolera sombra parcial.",
+    "preco": 35.00,
+    "codigoBarras": "7891234560024",
+    "imagem": "imagens/jiboia.png"
+  },
+  {
+    "id": 3,
+    "nome": "Cacto Mandacaru",
+    "descricao": "Espécie rústica e resistente, perfeita para quem busca plantas de baixa manutenção.",
+    "preco": 45.50,
+    "codigoBarras": "7891234560031",
+    "imagem": "imagens/cacto.png"
+  },
+  {
+    "id": 4,
+    "nome": "Espada-de-São-Jorge",
+    "descricao": "Purificadora de ar highly resistente, ideal para qualquer canto da casa.",
+    "preco": 29.90,
+    "codigoBarras": "7891234560048",
+    "imagem": "imagens/Espada.png"
+  },
+  {
+    "id": 5,
+    "nome": "Lírio da Paz",
+    "descricao": "Possui belas flores brancas e ajuda a umidificar e filtrar o ar dos ambientes.",
+    "preco": 52.00,
+    "codigoBarras": "7891234560055",
+    "imagem": "imagens/lirio.png"
+  },
+  {
+    "id": 6,
+    "nome": "Kit Mini Suculentas (3 un)",
+    "descricao": "Conjunto com três vasos cerâmicos com suculentas sortidas.",
+    "preco": 39.90,
+    "codigoBarras": "7891234560062",
+    "imagem": "imagens/sucu.png"
+  }
+]

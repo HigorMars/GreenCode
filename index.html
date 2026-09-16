@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>GreenCode - Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="auth-container">
+    <h2>Login - GreenCode 🌱</h2>
+    <form id="login-form">
+      <div class="form-group">
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" placeholder="tp1user" required>
+        <small class="error-msg" id="login-user-error"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Senha:</label>
+        <input type="password" id="password" placeholder="tp1senha" required>
+        <small class="error-msg" id="login-pass-error"></small>
+      </div>
+
+      <button type="button" onclick="verificarLogin()">Entrar</button>
+    </form>
+    <br>
+    <a href="cadastrar.html">Cadastrar novo usuário</a>
+  </div>
+
+  <script src="auth.js"></script>
+</body>
+</html>

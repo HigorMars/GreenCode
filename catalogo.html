@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>GreenCode - Catálogo de Plantas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌿 GreenCode - Loja de Plantas Online</h1>
+    <div class="header-right">
+      <span id="welcome-message"></span>
+      <button onclick="logout()" class="btn-secondary">Sair</button>
+    </div>
+  </header>
+
+  <main class="catalogo-container">
+    <aside class="filters-section">
+      <h3>Filtros de Busca</h3>
+      
+      <div class="form-group">
+        <label for="filter-name">Nome da Planta:</label>
+        <input type="text" id="filter-name" placeholder="Buscar por nome..." oninput="aplicarFiltros()">
+      </div>
+
+      <div class="form-group">
+        <label for="filter-min-price">Preço Mínimo (R$):</label>
+        <input type="number" id="filter-min-price" min="0" step="0.01" placeholder="0.00" oninput="aplicarFiltros()">
+      </div>
+
+      <div class="form-group">
+        <label for="filter-max-price">Preço Máximo (R$):</label>
+        <input type="number" id="filter-max-price" min="0" step="0.01" placeholder="999.00" oninput="aplicarFiltros()">
+      </div>
+
+      <hr>
+
+      <h3>Seu Carrinho</h3>
+      <div id="carrinho-info">
+        <p>Itens no carrinho: <strong id="carrinho-count">0</strong></p>
+        <ul id="lista-carrinho"></ul>
+        <button onclick="limparCarrinho()" class="btn-danger">Limpar Carrinho</button>
+      </div>
+    </aside>
+
+    <section class="products-section">
+      <h2>Nossas Plantas</h2>
+      <div id="grid-produtos" class="grid-produtos"></div>
+    </section>
+  </main>
+
+  <script src="catalogo.js"></script>
+</body>
+</html>
